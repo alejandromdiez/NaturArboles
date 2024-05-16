@@ -77,11 +77,33 @@ border-radius: 10px;
     line-height: 1.5;
     text-align: center;
     margin: 5px;
-    padding: 10px;
+    padding: 15px;
     background-color: #354F52;
     color: whitesmoke;
 
 }
+/*grid pagina ubicacion*/
+.ubicacion {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr 2fr 0.5fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "texto image"
+      "footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .nav { grid-area: nav; }
+  
+  .texto { grid-area: texto; }
+  
+  .image { grid-area: image; }
+  
+  .footer { grid-area: footer; }
 
 .image img{
     width: 80%;
@@ -108,11 +130,33 @@ main h2{
     background-color: #354F52;
     color: whitesmoke;
 }
-
-
+/*grid pagina contacto*/
+.contacto {  display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 0.3fr 2fr 0.5fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header header"
+      "nav nav"
+      "texto formulario"
+      "footer footer";
+  }
+  
+  .header { grid-area: header; }
+  
+  .nav { grid-area: nav; }
+  
+  .texto { grid-area: texto; }
+  
+  .formulario { grid-area: formulario; }
+  
+  .footer { grid-area: footer; }
+  
 
 .formulario{
     border: 5px double yellowgreen;
+    border-radius: 10px;
     background-color: #2F3E46;
     color: wheat;
     font-weight: 300;
@@ -139,4 +183,37 @@ footer {
 }
 .logox{
     width: 50px;
+}
+/*responsive pagina contacto*/
+@media screen and (max-width:420px)
+{
+    .contacto{   display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.3fr 1fr 1fr 0.5fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "nav"
+      "texto"
+      "formulario"
+      "footer";
+    }
+
+}
+
+/*responsive pagina ubicacion*/
+@media screen and (max-width:420px)
+{.ubicacion {  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 0.3fr 1fr 1fr 0.5fr;
+    gap: 5px 5px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "header"
+      "nav"
+      "texto"
+      "image"
+      "footer";
+  }
 }
