@@ -92,44 +92,24 @@ border-radius: 10px;
     text-align: center;
 }
 
-main h1{
+main h2{
     text-align: center;
     color: #CAD2C5;
     background-color: darkolivegreen;
 }
-
-
-.padre img{
-    width: 600px;
-    opacity: 0.7;
-    
-}
-
-.padre img:hover{
-    opacity: 1;
-}
-.padre{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-content: stretch;
-}
-/*estilo para pagina productos*/
-.producto{
-    background-color: #354F52;
-    color: aliceblue;
-    line-height: 1.5;
-    border: 5px solid green;
+/*estilo productos*/
+.productos{
+    border: 3px solid black;
     border-radius: 10px;
-    width: 600px;
+    line-height: 1.5;
     text-align: center;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-   
+    margin: 5px;
+    padding: 10px;
+    background-color: #354F52;
+    color: whitesmoke;
 }
+
+
 
 .formulario{
     border: 5px double yellowgreen;
