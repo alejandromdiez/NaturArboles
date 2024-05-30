@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #84a98C;
+  background-image: url(../img/fondohojas.jpg);
+  background-size: cover;
+  font-family: "Shantell Sans", cursive;
+}
+
+header {
+  padding: 5px;
+  text-align: center;
+}
+header .logogrande {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px;
+}
+header .logogrande img {
+  width: 250px;
+  padding: 1rem;
+  border: 5px black solid;
+  border-radius: 30%;
+  box-shadow: 10px 10px 20px black;
+}
+header h1 {
+  padding: 5px;
+  margin: 5px;
+  color: #CAD2C5;
+  font-size: 3rem;
+  text-decoration: underline;
+}
+header h2 {
+  padding: 5px;
+  font-size: 2rem;
+  color: black;
+}
+header .navbar {
+  width: 100vw;
+  margin: 5px;
+  border: 3px solid black;
+  background-color: #84a98C;
+  opacity: 0.7;
+  border-radius: 5px;
+}
+header .navbar img {
+  width: 50px;
+  border-radius: 30%;
+}
+header .navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 0;
+  width: 100%;
+  font-size: 1.5rem;
+}
+header .navbar ul li:hover {
+  background-color: #CAD2C5;
+  border-radius: 10%;
+  color: #2F3E46;
+}
+
+main {
+  padding: 20px;
+}
+main .texto {
+  border: 3px solid black;
+  border-radius: 10px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 5px;
+  padding: 15px;
+  background-color: #2F3E46;
+  color: whitesmoke;
+}
+main .texto h3 {
+  text-align: center;
+  color: #CAD2C5;
+  background-color: darkolivegreen;
+}
+
+/*# sourceMappingURL=estilo.css.map */
