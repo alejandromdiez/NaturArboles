@@ -25,10 +25,26 @@ main{
             border-radius: 10px;
         }
     }
-    
-    
-    
 
+    .productos{
+        border: 3px solid black;
+        border-radius: 10px;
+        line-height: 1.5;
+        text-align: center;
+        margin: 5px;
+        padding: 15px;
+        background-color: $ColorOscuro;
+        color: whitesmoke;
+        
+        h3{
+            text-align: center;
+            color: $colorClaro;
+            background-color: darkolivegreen;
+    
+        }
+    
+    }   
+    
 
 
 .formulario{
@@ -46,21 +62,7 @@ main{
     padding: 10px;
 }
 
-.productos{
-    border: 3px solid black;
-    border-radius: 10px;
-    line-height: 1.5;
-    text-align: center;
-    margin: 5px;
-    padding: 10px;
-    background-color: #354F52;
-    color: whitesmoke;
-    h3{
-        text-align: center;
-        color: $colorClaro;
-        background-color: darkolivegreen;
-    }
-}
+
 
     
 
