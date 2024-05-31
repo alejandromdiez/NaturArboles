@@ -170,7 +170,7 @@ main h2{
 }
 
 footer {
-    background: rgb(77,152,133);
+    
     background: linear-gradient(114deg, rgba(77,152,133,1) 9%, rgba(149,213,178,1) 75%);
     border-top: 2px solid black
 }

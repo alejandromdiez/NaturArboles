@@ -18,4 +18,52 @@ main{
         }
 
     }
+    .image{
+        text-align: center;
+        img{
+            width: 50%;
+            border-radius: 10px;
+        }
+    }
+    
+    
+    
+
+
+
+.formulario{
+    border: 5px double yellowgreen;
+    border-radius: 10px;
+    background-color: #2F3E46;
+    color: wheat;
+    font-weight: 300;
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+
+}
+.formcss{
+    padding: 10px;
+}
+
+.productos{
+    border: 3px solid black;
+    border-radius: 10px;
+    line-height: 1.5;
+    text-align: center;
+    margin: 5px;
+    padding: 10px;
+    background-color: #354F52;
+    color: whitesmoke;
+    h3{
+        text-align: center;
+        color: $colorClaro;
+        background-color: darkolivegreen;
+    }
+}
+
+    
+
+
+    
 }

@@ -1,0 +1,21 @@
+footer{
+    text-align: center;
+    background: linear-gradient(114deg, rgba(77,152,133,1) 9%, rgba(149,213,178,1) 75%);
+    border-top: 2px solid black
+    h4{
+        font-size: 0.5rem;
+
+    }
+    .logoinsta, .logox{
+        width: 50px;
+        display: inline-block;
+        &:hover{
+            width: 70px;
+
+        }
+        
+    }
+    .logoinsta{
+        border-radius: 5px;
+    }
+}

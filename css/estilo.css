@@ -35,6 +35,7 @@ header h1 {
   color: #CAD2C5;
   font-size: 3rem;
   text-decoration: underline;
+  text-shadow: 10px 10px 10px black;
 }
 header h2 {
   padding: 5px;
@@ -42,7 +43,7 @@ header h2 {
   color: black;
 }
 header .navbar {
-  width: 100vw;
+  width: 100%;
   margin: 5px;
   border: 3px solid black;
   background-color: #84a98C;
@@ -86,6 +87,58 @@ main .texto h3 {
   text-align: center;
   color: #CAD2C5;
   background-color: darkolivegreen;
+}
+main .image {
+  text-align: center;
+}
+main .image img {
+  width: 50%;
+  border-radius: 10px;
+}
+main .formulario {
+  border: 5px double yellowgreen;
+  border-radius: 10px;
+  background-color: #2F3E46;
+  color: wheat;
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+  margin: 5px;
+}
+main .formcss {
+  padding: 10px;
+}
+main .productos {
+  border: 3px solid black;
+  border-radius: 10px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 5px;
+  padding: 10px;
+  background-color: #354F52;
+  color: whitesmoke;
+}
+main .productos h3 {
+  text-align: center;
+  color: #CAD2C5;
+  background-color: darkolivegreen;
+}
+
+footer {
+  text-align: center;
+  background: linear-gradient(114deg, rgb(77, 152, 133) 9%, rgb(149, 213, 178) 75%);
+  border-top: 2px solid black h4;
+  border-top-font-size: 0.5rem;
+}
+footer .logoinsta, footer .logox {
+  width: 50px;
+  display: inline-block;
+}
+footer .logoinsta:hover, footer .logox:hover {
+  width: 70px;
+}
+footer .logoinsta {
+  border-radius: 5px;
 }
 
 /*# sourceMappingURL=estilo.css.map */
