@@ -43,7 +43,7 @@ header h2 {
   color: black;
 }
 header .navbar {
-  width: 100%;
+  width: 99%;
   margin: 5px;
   border: 3px solid black;
   background-color: #84a98C;
@@ -59,7 +59,7 @@ header .navbar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
   padding: 0;
   width: 100%;
   font-size: 1.5rem;
@@ -119,6 +119,7 @@ main .formulario {
   font-size: 15px;
   text-align: center;
   margin: 5px;
+  justify-content: center;
 }
 main .formcss {
   padding: 10px;
