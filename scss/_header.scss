@@ -1,7 +1,7 @@
 header{
     padding: 5px;
     text-align: center;
-    
+    /*formato logo*/
     .logogrande{
         display: block;
         justify-content: center;
@@ -17,6 +17,7 @@ header{
            
         }
     }
+    /*formato titulos*/
     h1{        
             
         padding: 5px;
@@ -34,6 +35,7 @@ header{
         font-size: 2rem;
         color: black;
     }
+    /*estilo navbar bootstrap*/
     .navbar{
         width: 99%;
         margin: 5px;
